@@ -1,2 +1,12 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using System;
+
+namespace NIX_Module2_HW2
+{
+    internal class Program
+    {
+        internal void Main(string[] args)
+        {
+            // Hi
+        }
+    }
+}
