@@ -13,7 +13,7 @@ namespace NIX_Module2_HW2
             Console.ForegroundColor = ConsoleColor.Yellow;
             Console.WriteLine("\n\n-----------------------------------------------------------\nOrder created.");
             Console.ForegroundColor = ConsoleColor.White;
-            Order order = new Order(Cart.ReturnCartProducts());
+            Order order = new Order(Cart.ReturnCartProducts(), Cart.ProductsInCartSum);
 
             Console.ForegroundColor = ConsoleColor.Yellow;
             Console.WriteLine("-----------------------------------------------------------\nProducts from your order:\n");
@@ -25,7 +25,7 @@ namespace NIX_Module2_HW2
 
             Console.ForegroundColor = ConsoleColor.Yellow;
 
-            Console.WriteLine("\nCart was cleared. ID of your order is " + order.ReturnOrderId());
+            Console.WriteLine("\nCart was cleared. ID of your order is " + order.ReturnOrderId() + ". Total price is " + order.OrderSum);
             Console.ForegroundColor = ConsoleColor.White;
             Cart.ClearCart();
         }
