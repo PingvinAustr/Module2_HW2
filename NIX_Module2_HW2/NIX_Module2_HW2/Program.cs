@@ -4,9 +4,9 @@ namespace NIX_Module2_HW2
 {
     internal class Program
     {
-        internal void Main(string[] args)
+        public static void Main(string[] args)
         {
-            // Hi
+            Starter.Run();
         }
     }
 }
