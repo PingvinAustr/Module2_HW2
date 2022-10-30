@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NIX_Module2_HW2", "NIX_Module2_HW2\NIX_Module2_HW2.csproj", "{8CC21866-A715-4542-90A9-3E6837553F7D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8CC21866-A715-4542-90A9-3E6837553F7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CC21866-A715-4542-90A9-3E6837553F7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CC21866-A715-4542-90A9-3E6837553F7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CC21866-A715-4542-90A9-3E6837553F7D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D669AF13-062C-4A28-B4AA-9021352DFC44}
+	EndGlobalSection
+EndGlobal
